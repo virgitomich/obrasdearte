@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="proyecto.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <h1>ARTÉ</h1>
+</header>
+
+<div class="principal">
+
+    <div class="texto">
+        <p>GALERÍA DE ARTE</p>
+
+        <h2>Descubre<br>
+            el arte que<br>
+            trasciende el tiempo.</h2>
+
+        <p>Obras icónicas de los grandes artistas,<br>
+        ahora en tu colección.</p>
+    </div>
+    <br>
+</div>
+                                                                              
+<div class="pinturas">
+
+    <div class="obra" >
+  
+        <img src="Imagen.2/descarga.jpg">
+        <div>
+        <h2>La noche estrellada</h2>
+        <p>Vincent van Gogh</p>
+        <p class="precio">$120.000</p>
+         <button commandfor="informacion" command="show-modal" class="abrir">Mas informacion</button>
+        
+           
+    </div>
+    <div>
+       <dialog id="informacion">
+            <h2>La noche estrellada</h2>
+            <p>
+                Fue pintada por Vincent van Gogh en 1889, mientras estaba internado en un hospital de Saint-Rémy, Francia. Van Gogh se inspiró en la vista que tenía desde la ventana de su habitación, aunque agregó algunos elementos de su imaginación. En la obra se puede ver un cielo lleno de estrellas, una luna brillante, un pueblo y un gran ciprés. Actualmente, la pintura se encuentra en el Museo de Arte Moderno (MoMA) de Nueva York y es una de las obras más famosas de Van Gogh.
+                <br> <br>
+                <button commandfor="gracias" command="show-modal" class="comprar">Comprar</button>
+            </p>
+            <button commandfor="informacion" command="close" class="cerrarb">X</button>        
+        </dialog> 
+        <dialog id="gracias">
+
+    <h2>¡Gracias por su compra!</h2>
+
+    <p>Gracias por elegir ARTÉ.</p>
+
+    <button commandfor="gracias" command="close" class="cerrarb">
+        Cerrar
+    </button>
+
+</dialog>
+    </div>
+    
+        
+    </div>
+
+    <div class="obra">
+        <img src="Imagen.2/mona lisa.jpg">
+        <h2>La Gioconda</h2>
+        <p>Leonardo da Vinci</p>
+        <p class="precio">$180.000</p>
+          <button commandfor="mona" command="show-modal" class="abrir">Mas informacion</button>
+        
+           
+    </div>
+    <div>
+       <dialog id="mona">
+            <h2>La mona Lisa</h2>
+        <p>Fue pintada por Leonardo da Vinci a comienzos del siglo XVI. La obra representa a una mujer sentada frente a un paisaje y es famosa por su misteriosa sonrisa. Leonardo trabajó en la pintura durante varios años y utilizó una técnica llamada *sfumato*, que hace que los cambios entre luces y sombras sean muy suaves. Actualmente, la obra se encuentra en el Museo del Louvre, en París, y es una de las pinturas más reconocidas del mundo.
+            <br><br>
+            <button commandfor="gracias" command="show-modal" class="comprar">Comprar</button>
+        </p>
+            <button commandfor="mona" command="close" class="cerrarb">X</button>        
+        </dialog> 
+        <dialog id="gracias">
+
+    <h2>¡Gracias por su compra!</h2>
+
+    <p>Gracias por elegir ARTÉ.</p>
+
+    <button commandfor="gracias" command="close" class="cerrarb">
+        Cerrar
+    </button>
+
+    </div>
+
+
+
+    <div class="obra">
+        <img src="Imagen.2/el grito.jpg">
+        <h2>El grito</h2>
+        <p>Edvard Munch</p>
+        <p class="precio">$950.000</p>
+          <button commandfor="grito" command="show-modal" class="abrir">Mas informacion</button>
+        
+           
+    </div>
+
+    
+    <div>
+       <dialog id="grito">
+            <h2>El grito</h2>
+            <p>
+                Fue pintado por Edvard Munch en 1893 y es una de sus obras más conocidas. La pintura muestra a una persona sobre un puente, con las manos en el rostro y una expresión de angustia. El cielo tiene colores intensos y líneas curvas que crean una sensación de movimiento. Munch se inspiró en una experiencia personal para representar sentimientos de ansiedad y desesperación. Actualmente, existen varias versiones de *El grito*, que se encuentran en museos de Noruega.
+                 <br><br>
+                <button commandfor="gracias" command="show-modal" class="comprar">Comprar</button>
+            </p>
+            <button commandfor="grito" command="close" class="cerrarb">X</button>        
+        </dialog> 
+         <dialog id="gracias">
+
+    <h2>¡Gracias por su compra!</h2>
+
+    <p>Gracias por elegir ARTÉ.</p>
+
+    <button commandfor="gracias" command="close" class="cerrarb">
+        Cerrar
+    </button>
+
+    </div>
+  
+
+    <div class="obra">
+        <img src="Imagen.2/la joven.jpg">
+        <h2>La joven de la perla</h2>
+        <p>Johannes Vermeer</p>
+        <p class="precio"> $110.000</p>
+        <button commandfor="joven" command="show-modal" class="abrir">Mas informacion</button>
+        
+           
+    </div>
+
+    <div>
+       <dialog id="joven">
+            <h2>La Joven de la Perla</h2>
+            <p>
+                Fue pintada por Johannes Vermeer alrededor de 1665. La obra muestra a una joven mirando hacia el espectador, con un turbante azul y amarillo y un gran pendiente de perla. No se conoce con certeza quién fue la modelo, por lo que su identidad sigue siendo un misterio. La pintura es conocida por su expresión delicada y el uso de la luz y los colores. Actualmente, se encuentra en el museo Mauritshuis, en La Haya, Países Bajos.
+                <br><br>
+                <button commandfor="gracias" command="show-modal" class="comprar">Comprar</button>
+            </p>
+            <button commandfor="joven" command="close" class="cerrarb">X</button>        
+        </dialog> 
+        <dialog id="gracias">
+
+    <h2>¡Gracias por su compra!</h2>
+
+    <p>Gracias por elegir ARTÉ.</p>
+
+    <button commandfor="gracias" command="close" class="cerrarb">
+        Cerrar
+    </button>
+    </div>
+
+    <div class="obra">
+        <img src="Imagen.2/nacimiento.jpg">
+        <h2>El nacimiento de Venus</h2>
+        <p>Sandro Botticelli</p>
+        <p class="precio">$250.000</p>
+        <button commandfor="nacimiento" command="show-modal" class="abrir">Mas informacion</button>
+        
+           
+    </div>
+
+    <div>
+       <dialog id="nacimiento">
+            <h2>El nacimiento de Venus</h2>
+            <p>
+                Fue pintado por Sandro Botticelli alrededor de 1485. La obra representa a Venus, la diosa romana del amor y la belleza, naciendo del mar y llegando a la orilla sobre una concha. A su alrededor aparecen otras figuras de la mitología, como Céfiro y Flora. La pintura fue realizada durante el Renacimiento y se destaca por sus colores suaves y su representación de la belleza ideal. Actualmente, se encuentra en la Galería de los Uffizi, en Florencia, Italia.
+                <br><br> 
+                <button commandfor="gracias" command="show-modal" class="comprar">Comprar</button> 
+            </p>
+            <button commandfor="nacimiento" command="close" class="cerrarb">X</button>        
+        </dialog> 
+        <dialog id="gracias">
+
+    <h2>¡Gracias por su compra!</h2>
+
+    <p>Gracias por elegir ARTÉ.</p>
+
+    <button commandfor="gracias" command="close" class="cerrarb">
+        Cerrar
+    </button>
+    </div>
+
+    <div class="obra">
+        <img src="Imagen.2/beso.jpg">
+        <h2>El beso</h2>
+        <p> Gustav Klimt</p>
+        <p class="precio">$300.000</p>
+        <button commandfor="beso" command="show-modal" class="abrir">Mas informacion</button>
+        
+           
+    </div>
+
+    <div>
+       <dialog id="beso">
+            <h2>El beso</h2>
+            <p>
+                Fue pintado por Gustav Klimt entre 1907 y 1908. La obra muestra a una pareja abrazada y besándose, rodeada por un fondo decorado con formas y colores dorados. Klimt utilizó pan de oro, inspirado en el arte bizantino, para darle a la pintura su aspecto brillante y llamativo. La obra representa el amor y la unión entre dos personas. Actualmente, se encuentra en la Galería Belvedere de Viena, Austria.
+                <br><br>
+                <button commandfor="gracias" command="show-modal" class="comprar">Comprar</button> 
+            </p>
+            <button commandfor="beso" command="close" class="cerrarb">X</button>        
+        </dialog> 
+        <dialog id="gracias">
+
+    <h2>¡Gracias por su compra!</h2>
+
+    <p>Gracias por elegir ARTÉ.</p>
+
+    <button commandfor="gracias" command="close" class="cerrarb">
+        Cerrar
+    </button>
+    </div>
+
+    
+    <div class="obra">
+        <img src="Imagen.2/cena.jpg">
+        <h2>La ultima cena</h2>
+        <p> Gustav Klimt</p>
+        <p class="precio">$190.000</p>
+        <button commandfor="cena" command="show-modal" class="abrir">Mas informacion</button>
+        
+           
+    </div>
+
+    <div>
+       <dialog id="cena">
+            <h2>La ultima cena</h2>
+            <p>
+                Fue pintada por Leonardo da Vinci entre 1495 y 1498. La obra representa el momento en que Jesús anuncia a sus apóstoles que uno de ellos lo traicionará. Cada personaje reacciona de una manera diferente, lo que hace que la escena tenga mucho movimiento y expresión. La pintura fue realizada en el convento de Santa Maria delle Grazie, en Milán, Italia, donde todavía se encuentra. Es una de las obras más famosas de Leonardo da Vinci.
+                <br><br>
+                <button commandfor="gracias" command="show-modal" class="comprar">Comprar</button> 
+            </p>
+            <button commandfor="cena" command="close" class="cerrarb">X</button>        
+        </dialog> 
+        <dialog id="gracias">
+
+    <h2>¡Gracias por su compra!</h2>
+
+    <p>Gracias por elegir ARTÉ.</p>
+
+    <button commandfor="gracias" command="close" class="cerrarb">
+        Cerrar
+    </button>
+    </div>
+
+    <div class="obra">
+        <img src="Imagen.2/retrato.jpg">
+        <h2>Autorretrato</h2>
+        <p>Van Gogh</p>
+        <p class="precio">$110.000</p>
+        <button commandfor="retrato" command="show-modal" class="abrir">Mas informacion</button>
+        
+           
+    </div>
+
+    <div>
+       <dialog id="retrato">
+            <h2>Auto retrato</h2>
+            <p>
+                Es una de las varias pinturas que el artista realizó de sí mismo. Van Gogh pintó muchos autorretratos a lo largo de su vida, especialmente durante su estancia en París y en otros lugares de Francia. En ellos experimentó con diferentes colores, pinceladas y formas de representar su rostro. Sus autorretratos son conocidos por sus colores intensos y pinceladas marcadas, que muestran su estilo característico. Actualmente, sus diferentes autorretratos se encuentran en museos de distintos países.
+                <br><br>
+                <button commandfor="gracias" command="show-modal" class="comprar">Comprar</button> 
+            </p>
+            <button commandfor="retrato" command="close" class="cerrarb">X</button>        
+        </dialog>
+         <dialog id="gracias">
+
+    <h2>¡Gracias por su compra!</h2>
+
+    <p>Gracias por elegir ARTÉ.</p>
+
+    <button commandfor="gracias" command="close" class="cerrarb">
+        Cerrar
+    </button> 
+    </div>
+
+    <div class="obra">
+        <img src="Imagen.2/el hijo del hombre.jpg">
+        <h2>El hijo del hombre</h2>
+        <p>Johannes Vermeer</p>
+        <p class="precio">$110.000</p>
+        <button commandfor="hombre" command="show-modal" class="abrir">Mas informacion</button>
+        
+           
+    </div>
+
+    <div>
+       <dialog id="hombre">
+            <h2>El hijo del hombre</h2>
+            <p>
+                Fue pintado por René Magritte en 1964. La obra muestra a un hombre con traje y sombrero frente a un muro, mientras una manzana verde cubre gran parte de su rostro. Magritte quiso jugar con la idea de lo que podemos ver y lo que permanece oculto. La pintura es conocida por su estilo surrealista y por el misterio que transmite. Actualmente, la obra pertenece a una colección privada.
+                <br><br>
+                <button commandfor="gracias" command="show-modal" class="comprar">Comprar</button> 
+            </p>
+            <button commandfor="hombre" command="close" class="cerrarb">X</button>        
+        </dialog> 
+         <dialog id="gracias">
+
+    <h2>¡Gracias por su compra!</h2>
+
+    <p>Gracias por elegir ARTÉ.</p>
+
+    <button commandfor="gracias" command="close" class="cerrarb">
+        Cerrar
+    </button> 
+    </div>
+
+     <div class="obra">
+        <img src="Imagen.2/angel caido.jpg">
+        <h2>Angel caido</h2>
+        <p> Alexandre Cabane</p>
+        <p class="precio">$500.000</p>
+        <button commandfor="angel" command="show-modal" class="abrir">Mas informacion</button>
+        
+           
+    </div>
+
+    <div>
+       <dialog id="angel">
+            <h2>Angel caido</h2>
+            <p>
+               Fue pintado por Alexandre Cabanel en 1847. La obra representa a un ángel sentado sobre una roca, con una expresión triste y lágrimas en los ojos. Cabanel muestra al ángel después de haber sido expulsado del cielo, representando la caída y la pérdida de su lugar celestial. La pintura pertenece al estilo académico y se destaca por el detalle y la belleza de la figura. Actualmente, se encuentra en el Museo Fabre, en Montpellier, Francia.
+                <br><br>
+               <button commandfor="gracias" command="show-modal" class="comprar">Comprar</button> 
+            </p>
+            <button commandfor="angel" command="close" class="cerrarb">X</button>        
+        </dialog> 
+         <dialog id="gracias">
+
+    <h2>¡Gracias por su compra!</h2>
+
+    <p>Gracias por elegir ARTÉ.</p>
+
+    <button commandfor="gracias" command="close" class="cerrarb">
+        Cerrar
+    </button> 
+    </div>
+
+     <div class="obra">
+        <img src="Imagen.2/el columpio.webp">
+        <h2>El columpio</h2>
+        <p>Jean-Honoré Fragonard</p>
+        <p class="precio">$200.000</p>
+        <button commandfor="columpio" command="show-modal" class="abrir">Mas informacion</button>
+        
+           
+    </div>
+
+    <div>
+       <dialog id="columpio">
+            <h2>El columpio</h2>
+            <p>
+                Fue pintado por Jean-Honoré Fragonard alrededor de 1767. La obra muestra a una joven balanceándose en un columpio mientras un hombre la observa desde unos arbustos. La escena tiene un ambiente alegre y divertido, con colores suaves y abundante vegetación. La pintura es una de las obras más conocidas del estilo rococó y representa la elegancia y el carácter juguetón de esa época. Actualmente, se encuentra en la Colección Wallace, en Londres.
+                 <br><br>
+                <button commandfor="gracias" command="show-modal" class="comprar">Comprar</button> 
+            </p>
+            <button commandfor="columpio" command="close" class="cerrarb">X</button>        
+        </dialog> 
+    </div>
+
+    <div class="obra">
+        <img src="Imagen.2/saturno devorando a su hijo.jpg">
+        <h2>Saturno devorando a su hijo</h2>
+        <p> Francisco de Goya</p>
+        <p class="precio">$150.000</p>
+        <button commandfor="saturno" command="show-modal" class="abrir">Mas informacion</button>
+        
+           
+    </div>
+
+    <div>
+       <dialog id="saturno">
+            <h2>Saturno devorando a su hijo</h2>
+            <p>
+                Fue pintado por Francisco de Goya entre 1819 y 1823. La obra representa al dios Saturno, quien, según la mitología romana, devoraba a sus hijos por miedo a que uno de ellos lo destronara. Goya utilizó colores oscuros y una expresión intensa para transmitir una sensación de miedo y angustia. La pintura formaba parte de las llamadas Pinturas Negras, realizadas en las paredes de la casa de Goya. Actualmente, se encuentra en el Museo del Prado, en Madrid.
+                <br><br>
+                <button commandfor="gracias" command="show-modal" class="comprar">Comprar</button> 
+            </p>
+            <button commandfor="saturno" command="close" class="cerrarb">X</button>        
+        </dialog> 
+         <dialog id="gracias">
+
+    <h2>¡Gracias por su compra!</h2>
+
+    <p>Gracias por elegir ARTÉ.</p>
+
+    <button commandfor="gracias" command="close" class="cerrarb">
+        Cerrar
+    </button> 
+    </div>
+    
+
+
+</div>
+
+<footer>
+    <p>Arte &copy;2026 - Derechos reservados. Autor: Spessot Virginia </p>
+</footer>
+    
+</body>
+</html>

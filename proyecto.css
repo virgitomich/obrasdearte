@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    font-family: Arial;
+}
+
+header {
+    padding: 50px;
+    background-color: rgb(86, 184, 223);
+}
+
+h1 {
+    color: white;
+    font-family: Georgia;
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+.principal {
+    height: 450px;
+    padding-left: 50px;
+    background-image:linear-gradient(rgba(0, 194, 255, 0.452),rgba(0, 0, 0, 0.452)), url(Imagen.2/descarga.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.texto {
+    color: white;
+    padding-top:100px;
+    margin-left:0px;
+}
+
+.texto h2 {
+    font-family: Georgia;
+    font-size: 42px;
+}
+
+.texto p {
+    font-size: 15px;
+}
+
+.pinturas {
+    margin: 50px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+}
+
+.obra {
+    width: 220px;
+    box-shadow: 0 0 6px lightgrey;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+
+ 
+
+}
+
+h2,p, button{
+    padding: 8px;
+
+}
+
+.obra:hover{
+    transform: rotate(2deg);
+    transition: 0.5s;
+}
+
+.obra img {
+    width: 220px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.obra h2 {
+    font-family: Georgia;
+    font-size: 20px;
+}
+
+.obra p {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.obra .precio{
+    font-weight: bold ;
+    font-size: 18px;
+
+}
+
+dialog{
+    padding-top: 50px;
+    max-width:500px;
+    width: 90vw;
+    margin: auto;
+    position: relative;
+    border: none;
+    padding: 24px;
+    border-radius: 20px;
+      background-color: rgba(251, 253, 252, 0.85);
+}
+
+dialog::backdrop{ 
+    background-color: rgb(0,0,0,0.4);
+    
+}
+dialog p{
+    line-height: 1.5;
+    padding-top: 16px;
+}
+.cerrarb{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px;
+    border-radius: 100% 100% ;
+
+}
+
+.cerrarb:hover{
+    background-color: rgb(241, 15, 15);
+    transition: 0.5s;
+}
+
+.abrir{
+    background-color: rgb(251, 253, 252);
+    border: none;
+    padding: 15px;
+    transition-property:background-color, transform ;
+    transition-duration: 250ms, 250ms;
+    background-color: rgba(156, 217, 253, 0.582);
+    border-radius: 10%;
+    
+}
+.abrir:hover{
+background-color: rgba(120, 186, 240, 0.514);
+transform: scale(1.2);
+
+
+}
+
+.comprar{
+    background-color: rgba(91, 226, 250, 0.692);
+    color: aliceblue;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    transform: scale(1.05);
+}
+
+.gracias {
+    max-width: 500px;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(251, 253, 252);
+}
+
+.gracias::backdrop {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+footer{
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(73, 146, 243, 0.712);
+}
